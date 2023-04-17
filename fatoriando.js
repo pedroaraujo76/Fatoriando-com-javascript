@@ -38,6 +38,7 @@ fatorial(4)
 function fatorial2(l) {
     
     var i, product2 = 1;
+    
     for(i=2; i <= l; i++)
     product2 *= i;
     console.log(product2)
